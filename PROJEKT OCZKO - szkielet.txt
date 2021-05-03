@@ -1,0 +1,47 @@
+
+Prosta gra karciana - oczko
+Przepływ programu:
+1. Gra pyta o liczbę graczy (maksymalnie 4. graczy) - dodatkowo można zapytać o imię graczy.
+2. Gra przygotowuje standardową talię kart ułożoną losowo (potasowaną)
+3. Gra wyciąga pierwszą kartę dla gracza nr 1. i pyta, czy dobierać dalej:
+    - jeśli gracz wpisze słówko "next", gracz otrzymuje kartę
+    - jeśli gracz wpisze słówko "pass", rezygnuje z dobierania dalszych kart
+4. W zależności jeśli gracz zrezygnuje z dobierania lub przebije sumę 21, gra przechodzi do następnego gracza.
+5. Krok 3 powtarza się dla wszystkich graczy.
+6. Na końcu karty dobiera komputer.
+7. W zależności od wyniku program drukuje informację o zwycięzcy:
+    - wygrywa ten, kto był najbliżej wyniku 21, ale go nie przekroczył
+        - wyjątek: perskie oczko dające wynik 22
+    - jeśli kilkoro graczy ma ten sam wynik, należy wydrukować informację o remisie, kto zremisował i z jakim wynikiem
+8. W zależności od różnych wyników wygrywa ten, czyja kombinacja ma większy priorytet:
+    - perskie oczko (może być remis jeśli dwóch graczy będzie je mieć),
+    - standardowe oczko,
+    - suma najbliższa 21.
+9. Na zakończenie gry po informacji kto wygrał gra proponuje czy zagrać jeszcze raz.
+
+Dla prostoty aplikacja ma opierać się o CLI (command line interface) - komunikujemy się z aplikacją przez konsolę.
+
+1. klasa Main  - obligatoryjnie - będzie uzupełniana na bieżąco - SOP { SystemOutPrintln () } itp.
+2. klasa Interfejs - komunikator z graczami - zbiera i zapamiętuje dane z ekranu
+3. klasa ZasadyGry - metodologia zasad gry
+4. klasa Talia - zobrazowanie talii kart
+5. klasa Tasowanie - zasady tasowania z wykorzystaniem metody pseudolosowej
+6. klasa Oczko - wykonawczy 
+
+wszystko spakowane w package
+
+CLI (command line interface) - nie tłumaczył...
+co z talią kart....zobrazowanie.....inne rozwiązanie..?
+
+
+
+
+
+
+
+
+
+
+
+
+

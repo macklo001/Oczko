@@ -9,6 +9,7 @@ public class Main {
 
         System.out.println("Podaj ilość graczy");
         int iloscGraczy = scanner.nextInt();
+
         if (2 == iloscGraczy) {
             System.out.println("Podaj imię pierwszego gracza");
             String name1 = scanner.nextLine();

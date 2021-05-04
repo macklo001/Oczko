@@ -1,4 +1,4 @@
-package oczko;
+package BlackJack;
 import java.util.Scanner;
 
 public class Main {

@@ -1,5 +1,5 @@
 
-Prosta gra karciana - oczko
+Prosta gra karciana - BlackJack
 Przepływ programu:
 1. Gra pyta o liczbę graczy (maksymalnie 4. graczy) - dodatkowo można zapytać o imię graczy.
 2. Gra przygotowuje standardową talię kart ułożoną losowo (potasowaną)
@@ -11,11 +11,11 @@ Przepływ programu:
 6. Na końcu karty dobiera komputer.
 7. W zależności od wyniku program drukuje informację o zwycięzcy:
     - wygrywa ten, kto był najbliżej wyniku 21, ale go nie przekroczył
-        - wyjątek: perskie oczko dające wynik 22
+        - wyjątek: perskie BlackJack dające wynik 22
     - jeśli kilkoro graczy ma ten sam wynik, należy wydrukować informację o remisie, kto zremisował i z jakim wynikiem
 8. W zależności od różnych wyników wygrywa ten, czyja kombinacja ma większy priorytet:
-    - perskie oczko (może być remis jeśli dwóch graczy będzie je mieć),
-    - standardowe oczko,
+    - perskie BlackJack (może być remis jeśli dwóch graczy będzie je mieć),
+    - standardowe BlackJack,
     - suma najbliższa 21.
 9. Na zakończenie gry po informacji kto wygrał gra proponuje czy zagrać jeszcze raz.
 
